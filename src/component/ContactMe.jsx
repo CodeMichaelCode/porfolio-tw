@@ -61,7 +61,7 @@ const ContactMe = () => {
               </label>
             </p>
             <label
-              for="name"
+              htmlFor="name"
               className="mb-1 block capitalize font-body text-xl"
             >
               Your name:
@@ -73,7 +73,7 @@ const ContactMe = () => {
               className="p-2 block w-full mb-4 bg-white focus:bg-slate-200 focus:outline-none border-solid border-darkGray border-b-2"
             />
             <label
-              for="email"
+              htmlFor="email"
               className="mb-1 block capitalize font-body text-xl"
             >
               Your email address:
@@ -85,7 +85,7 @@ const ContactMe = () => {
               className="p-2 block w-full mb-4 bg-white focus:bg-slate-200 focus:outline-none border-solid border-darkGray border-b-2"
             />
             <label
-              for="message"
+              htmlFor="message"
               className="mb-1 block capitalize font-body text-xl"
             >
               Your message:

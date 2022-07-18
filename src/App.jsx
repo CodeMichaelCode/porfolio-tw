@@ -1,4 +1,3 @@
-import { useState } from "react";
 import AboutMe from "./component/AboutMe";
 import ContactMe from "./component/ContactMe";
 import Header from "./component/Header";
@@ -7,7 +6,7 @@ import Skills from "./component/Skills";
 
 function App() {
   return (
-    <div className="scroll-smooth">
+    <div>
       <Header />
       <AboutMe />
       <Skills />

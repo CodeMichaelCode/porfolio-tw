@@ -49,39 +49,27 @@ const ContactMe = () => {
         </div>
         <div className="my-5 lg:px-14 xl:px-0">
           <form name="contact-form" method="POST">
-            <input type="hidden" name="form-name" value="coontant-form" />
-            <label
-              htmlFor="name"
-              className="mb-1 block capitalize font-body text-xl"
-            >
+            <input type="hidden" name="form-name" value="contact-form" />
+            <label className="mb-1 block capitalize font-body text-xl">
               Your name:
             </label>
             <input
               type="text"
-              id="name"
               name="fullname"
               className="p-2 block w-full mb-4 bg-white focus:bg-slate-200 focus:outline-none border-solid border-darkGray border-b-2"
             />
-            <label
-              htmlFor="email"
-              className="mb-1 block capitalize font-body text-xl"
-            >
+            <label className="mb-1 block capitalize font-body text-xl">
               Your email address:
             </label>
             <input
               type="email"
-              id="email"
               name="email"
               className="p-2 block w-full mb-4 bg-white focus:bg-slate-200 focus:outline-none border-solid border-darkGray border-b-2"
             />
-            <label
-              htmlFor="message"
-              className="mb-1 block capitalize font-body text-xl"
-            >
+            <label className="mb-1 block capitalize font-body text-xl">
               Your message:
             </label>
             <textarea
-              id="message"
               name="message"
               className="p-2 block w-full mb-4 bg-white focus:bg-slate-200 focus:outline-none border-solid border-darkGray border-b-2 min-h-[250px]"
             ></textarea>

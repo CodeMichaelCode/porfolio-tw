@@ -9,9 +9,9 @@ import {
 const ContactMe = () => {
   return (
     <section className="bg-darkBlue">
-      <div className=" container mx-auto py-20 px-10 grid xl:gap-6 xl:grid-cols-2">
-        <div className="m-5 lg:px-14 xl:px-0">
-          <h3 className="text-8xl font-headers mb-7">
+      <div className=" container mx-auto pt-20 pb-10 xl:py-20 px-5 md:px-10 grid xl:gap-6 xl:grid-cols-2">
+        <div className="my-5 lg:px-14 xl:px-0">
+          <h3 className="text-5xl md:text-8xl font-headers mb-7">
             Let's <FaArrowRight className="inline-block text-slate-200" />
             <br /> Connect.
           </h3>
@@ -47,7 +47,7 @@ const ContactMe = () => {
             </li>
           </ul>
         </div>
-        <div className="m-5 lg:px-14 xl:px-0">
+        <div className="my-5 lg:px-14 xl:px-0">
           <form
             action="POST"
             name="contact"

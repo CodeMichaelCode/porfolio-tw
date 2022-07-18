@@ -4,7 +4,7 @@ import { FaGithubSquare, FaExternalLinkAlt } from "react-icons/fa";
 const Projects = () => {
   return (
     <section className="bg-slate-100">
-      <div className="container mx-auto py-20 px-10">
+      <div className="container mx-auto py-20 px-5 md:px-10">
         <h2 className="text-5xl uppercase text-center font-headers mb-14 underline decoration-dotted decoration-darkBlue decoration-6">
           Projects
         </h2>
@@ -39,17 +39,17 @@ const Projects = () => {
               - React, Node.js, Express.js, MongoDB, Javascript, Styled
               Components, and&nbsp;JWTs.
             </p>
-            <div className="flex gap-6">
+            <div className="flex gap-2 md:gap-6">
               <a
                 href="https://recipebookmark.netlify.app/"
-                className="text-lg bg-lightBlue text-white rounded-3xl py-3 px-6 cursor-pointer shadow-lg no-underline hover:bg-darkBlue"
+                className="md:text-lg bg-lightBlue text-white rounded-3xl py-3 px-5 md:px-6 cursor-pointer shadow-lg no-underline hover:bg-darkBlue"
               >
                 <FaExternalLinkAlt className="inline-block align-baseline mr-1" />{" "}
                 View Project
               </a>
               <a
                 href="https://github.com/CodeMichaelCode/mern-recipe-site"
-                className="text-lg bg-lightBlue text-white rounded-3xl py-3 px-6 cursor-pointer shadow-lg no-underline hover:bg-darkBlue"
+                className="md:text-lg bg-lightBlue text-white rounded-3xl py-3 px-5 md:px-6 cursor-pointer shadow-lg no-underline hover:bg-darkBlue"
               >
                 <FaGithubSquare className="inline-block text-2xl align-text-bottom mr-1" />{" "}
                 GitHub
@@ -90,14 +90,14 @@ const Projects = () => {
             <div className="flex gap-6">
               <a
                 href="https://toms-tavern-trove.netlify.app/"
-                className="text-lg bg-lightBlue text-white rounded-3xl py-3 px-6 cursor-pointer shadow-lg no-underline hover:bg-darkBlue"
+                className="md:text-lg bg-lightBlue text-white rounded-3xl py-3 px-5 md:px-6 cursor-pointer shadow-lg no-underline hover:bg-darkBlue"
               >
                 <FaExternalLinkAlt className="inline-block align-baseline mr-1" />{" "}
                 View Project
               </a>
               <a
                 href="https://github.com/CodeMichaelCode/LocalBrewApiProject"
-                className="text-lg bg-lightBlue text-white rounded-3xl py-3 px-6 cursor-pointer shadow-lg no-underline hover:bg-darkBlue"
+                className="md:text-lg bg-lightBlue text-white rounded-3xl py-3 px-5 md:px-6 cursor-pointer shadow-lg no-underline hover:bg-darkBlue"
               >
                 <FaGithubSquare className="inline-block text-2xl align-text-bottom mr-1" />{" "}
                 GitHub
@@ -137,14 +137,14 @@ const Projects = () => {
             <div className="flex gap-6">
               <a
                 href="https://plastic-money-bank.netlify.app/"
-                className="text-lg bg-lightBlue text-white rounded-3xl py-3 px-6 cursor-pointer shadow-lg no-underline hover:bg-darkBlue"
+                className="md:text-lg bg-lightBlue text-white rounded-3xl py-3 px-5 md:px-6 cursor-pointer shadow-lg no-underline hover:bg-darkBlue"
               >
                 <FaExternalLinkAlt className="inline-block align-baseline mr-1" />{" "}
                 View Project
               </a>
               <a
                 href="https://github.com/CodeMichaelCode/Banking-LP"
-                className="text-lg bg-lightBlue text-white rounded-3xl py-3 px-6 cursor-pointer shadow-lg no-underline hover:bg-darkBlue"
+                className="md:text-lg bg-lightBlue text-white rounded-3xl py-3 px-5 md:px-6 cursor-pointer shadow-lg no-underline hover:bg-darkBlue"
               >
                 <FaGithubSquare className="inline-block text-2xl align-text-bottom mr-1" />{" "}
                 GitHub

@@ -8,7 +8,7 @@ import {
 
 const ContactMe = () => {
   return (
-    <section className="bg-darkBlue">
+    <section className="bg-darkBlue scroll-smooth" id="contact">
       <div className=" container mx-auto pt-20 pb-10 xl:py-20 px-5 md:px-10 grid xl:gap-6 xl:grid-cols-2">
         <div className="my-5 lg:px-14 xl:px-0">
           <h3 className="text-5xl md:text-8xl font-headers mb-7">

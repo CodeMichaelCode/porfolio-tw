@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { BsCodeSlash } from "react-icons/bs";
 
 const Header = () => {
@@ -14,24 +13,18 @@ const Header = () => {
         </div>
         <div className="px-5 py-0 md:px-14 lg:py-10 2xl:px-[20%] xl:bg-darkBlue ">
           <ul className="flex  text-white font-body md:gap-6 lg:justify-end">
-            <Link
-              className="p-2 border-darkBlue border-b-2 hover:border-b-2 hover:border-white"
-              to={"/"}
-            >
-              <li>Home</li>
-            </Link>
-            <Link
-              className="p-2 border-darkBlue border-b-2 hover:border-b-2 hover:border-white"
-              to={"/"}
+            <a
+              className="scroll-smooth cursor-pointer p-2 border-darkBlue border-b-2 hover:border-b-2 hover:border-white"
+              href="#projects"
             >
               <li>Projects</li>
-            </Link>
-            <Link
-              className="p-2 border-darkBlue border-b-2 hover:border-b-2 hover:border-white"
-              to={"/"}
+            </a>
+            <a
+              className="scroll-smooth cursor-pointer p-2 border-darkBlue border-b-2 hover:border-b-2 hover:border-white"
+              href="#contact"
             >
               <li>Contact Me</li>
-            </Link>
+            </a>
           </ul>
         </div>
       </nav>

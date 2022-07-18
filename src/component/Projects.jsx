@@ -3,7 +3,7 @@ import { FaGithubSquare, FaExternalLinkAlt } from "react-icons/fa";
 
 const Projects = () => {
   return (
-    <section className="bg-slate-100">
+    <section className="bg-slate-100 scroll-smooth" id="projects">
       <div className="container mx-auto py-20 px-5 md:px-10">
         <h2 className="text-5xl uppercase text-center font-headers mb-14 underline decoration-dotted decoration-darkBlue decoration-6">
           Projects
@@ -105,7 +105,7 @@ const Projects = () => {
             </div>
           </div>
         </article>
-        <article className="grid my-10 items-center xl:gap-6 xl:grid-cols-2">
+        <article className="grid mt-10 mb-0 md:my-10 items-center xl:gap-6 xl:grid-cols-2">
           <div className="m-5 lg:px-14 xl:px-0 xl:order-2">
             <div className="bg-black max-w-[700px] w-full mx-auto">
               <a

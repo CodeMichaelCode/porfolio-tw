@@ -48,8 +48,8 @@ const ContactMe = () => {
           </ul>
         </div>
         <div className="my-5 lg:px-14 xl:px-0">
-          <form name="contact-form" data-netlify="true" method="POST">
-            <input type="hidden" name="form-name" value={"coontant-form"} />
+          <form name="contact-form" method="POST">
+            <input type="hidden" name="form-name" value="coontant-form" />
             <label
               htmlFor="name"
               className="mb-1 block capitalize font-body text-xl"

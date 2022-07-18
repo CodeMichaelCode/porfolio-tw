@@ -11,15 +11,15 @@
     <title>CodeMichaelCode</title>
   </head>
   <body>
-    <form name="contact-form" netlify-honeypot="bot-field" netlify hidden>
+    <form name="contact-form" netlify netlify-honeypot="bot-field" hidden></form>>
       <p>
         <label hidden>
           Don’t fill this out if you’re human: <input hidden name="bot-field" />
         </label>
       </p>
-      <input type="text" id="name" name="fullname" />
-      <input type="email" id="email" name="email" />
-      <textarea id="message" name="message"></textarea>
+      <input type="text" name="fullname" />
+      <input type="email" name="email" />
+      <textarea name="message"></textarea>
     </form>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>

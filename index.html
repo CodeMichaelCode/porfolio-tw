@@ -13,27 +13,20 @@
   <body>
     <form
       action="/"
-      name="contact"
+      name="contact-form"
       data-netlify="true"
-      method="POST"
       netlify-honeypot="bot-field"
+      netlify
       hidden
     >
       <p>
-        <label className="text-lg font-body ">
-          Don’t fill this out if you’re human: <input name="bot-field" />
+        <label hidden>
+          Don’t fill this out if you’re human: <input hidden name="bot-field" />
         </label>
       </p>
-      <input type="hidden" id="name" name="form-name" value="contact" />
-      <input input type="hidden" id="name" name="form-name" value="contact" />
-      <textarea
-        input
-        type="hidden"
-        id="name"
-        name="form-name"
-        value="contact"
-      ></textarea>
-      <button type="submit"></button>
+      <input type="text" id="name" name="fullname" />
+      <input type="email" id="email" name="email" />
+      <textarea id="message" name="message"></textarea>
     </form>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>

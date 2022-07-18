@@ -42,17 +42,17 @@ const Projects = () => {
             <div className="flex gap-2 md:gap-6">
               <a
                 href="https://recipebookmark.netlify.app/"
-                className="md:text-lg bg-lightBlue text-white rounded-3xl py-3 px-5 md:px-6 cursor-pointer shadow-lg no-underline hover:bg-darkBlue"
+                className="md:text-lg bg-lightBlue text-white rounded-3xl py-3 px-3 md:px-6 cursor-pointer shadow-lg no-underline hover:bg-darkBlue"
               >
                 <FaExternalLinkAlt className="inline-block align-baseline mr-1" />{" "}
                 View Project
               </a>
               <a
                 href="https://github.com/CodeMichaelCode/mern-recipe-site"
-                className="md:text-lg bg-lightBlue text-white rounded-3xl py-3 px-5 md:px-6 cursor-pointer shadow-lg no-underline hover:bg-darkBlue"
+                className="md:text-lg bg-lightBlue text-white rounded-3xl py-3 px-3 md:px-6 cursor-pointer shadow-lg no-underline hover:bg-darkBlue"
               >
                 <FaGithubSquare className="inline-block text-2xl align-text-bottom mr-1" />{" "}
-                GitHub
+                View Code
               </a>
             </div>
           </div>
@@ -87,20 +87,20 @@ const Projects = () => {
               - Javascript, CSS, HTML, and
               <span className="whitespace-nowrap"> Web Based API.</span>
             </p>
-            <div className="flex gap-6">
+            <div className="flex gap-2 md:gap-6">
               <a
                 href="https://toms-tavern-trove.netlify.app/"
-                className="md:text-lg bg-lightBlue text-white rounded-3xl py-3 px-5 md:px-6 cursor-pointer shadow-lg no-underline hover:bg-darkBlue"
+                className="md:text-lg bg-lightBlue text-white rounded-3xl py-3 px-3 md:px-6 cursor-pointer shadow-lg no-underline hover:bg-darkBlue"
               >
                 <FaExternalLinkAlt className="inline-block align-baseline mr-1" />{" "}
                 View Project
               </a>
               <a
                 href="https://github.com/CodeMichaelCode/LocalBrewApiProject"
-                className="md:text-lg bg-lightBlue text-white rounded-3xl py-3 px-5 md:px-6 cursor-pointer shadow-lg no-underline hover:bg-darkBlue"
+                className="md:text-lg bg-lightBlue text-white rounded-3xl py-3 px-3 md:px-6 cursor-pointer shadow-lg no-underline hover:bg-darkBlue"
               >
                 <FaGithubSquare className="inline-block text-2xl align-text-bottom mr-1" />{" "}
-                GitHub
+                View Code
               </a>
             </div>
           </div>
@@ -134,20 +134,20 @@ const Projects = () => {
             <p className="text-lg font-body mb-7 xl:w-[90%] italic">
               - Javascript, CSS, and HTML.
             </p>
-            <div className="flex gap-6">
+            <div className="flex gap-2 md:gap-6">
               <a
                 href="https://plastic-money-bank.netlify.app/"
-                className="md:text-lg bg-lightBlue text-white rounded-3xl py-3 px-5 md:px-6 cursor-pointer shadow-lg no-underline hover:bg-darkBlue"
+                className="md:text-lg bg-lightBlue text-white rounded-3xl py-3 px-3 md:px-6 cursor-pointer shadow-lg no-underline hover:bg-darkBlue"
               >
                 <FaExternalLinkAlt className="inline-block align-baseline mr-1" />{" "}
                 View Project
               </a>
               <a
                 href="https://github.com/CodeMichaelCode/Banking-LP"
-                className="md:text-lg bg-lightBlue text-white rounded-3xl py-3 px-5 md:px-6 cursor-pointer shadow-lg no-underline hover:bg-darkBlue"
+                className="md:text-lg bg-lightBlue text-white rounded-3xl py-3 px-3 md:px-6 cursor-pointer shadow-lg no-underline hover:bg-darkBlue"
               >
                 <FaGithubSquare className="inline-block text-2xl align-text-bottom mr-1" />{" "}
-                GitHub
+                View Code
               </a>
             </div>
           </div>

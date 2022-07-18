@@ -61,7 +61,7 @@ const Projects = () => {
           <div className="m-5 lg:px-14 xl:px-0 ">
             <div className="bg-black max-w-[700px] w-full mx-auto">
               <a
-                href="https://github.com/CodeMichaelCode/LocalBrewApiProject"
+                href="https://toms-tavern-trove.netlify.app/"
                 target={"_blank"}
                 className="relative"
               >
@@ -89,7 +89,7 @@ const Projects = () => {
             </p>
             <div className="flex gap-6">
               <a
-                href="https://www.codemichaelcode.com/toms-tavern-trove/"
+                href="https://toms-tavern-trove.netlify.app/"
                 className="text-lg bg-lightBlue text-white rounded-3xl py-3 px-6 cursor-pointer shadow-lg no-underline hover:bg-darkBlue"
               >
                 <FaExternalLinkAlt className="inline-block align-baseline mr-1" />{" "}
@@ -109,7 +109,7 @@ const Projects = () => {
           <div className="m-5 lg:px-14 xl:px-0 xl:order-2">
             <div className="bg-black max-w-[700px] w-full mx-auto">
               <a
-                href="https://www.codemichaelcode.com/plastic-money-bank/"
+                href="https://plastic-money-bank.netlify.app/"
                 target={"_blank"}
                 className="relative"
               >
@@ -136,7 +136,7 @@ const Projects = () => {
             </p>
             <div className="flex gap-6">
               <a
-                href="https://www.codemichaelcode.com/plastic-money-bank/"
+                href="https://plastic-money-bank.netlify.app/"
                 className="text-lg bg-lightBlue text-white rounded-3xl py-3 px-6 cursor-pointer shadow-lg no-underline hover:bg-darkBlue"
               >
                 <FaExternalLinkAlt className="inline-block align-baseline mr-1" />{" "}

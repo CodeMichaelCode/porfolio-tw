@@ -8,14 +8,14 @@ import {
 
 const ContactMe = () => {
   return (
-    <section className="bg-darkBlue" id="contact">
+    <section className="bg-darkGray" id="contact">
       <div className=" container mx-auto pt-20 pb-10 xl:py-20 px-5 md:px-10 grid xl:gap-6 xl:grid-cols-2">
         <div className="my-5 lg:px-14 xl:px-0">
-          <h3 className="text-5xl md:text-8xl font-headers mb-7">
+          <h3 className="text-5xl md:text-8xl font-headers mb-7 text-white">
             Let's <FaArrowRight className="inline-block text-slate-200" />
             <br /> Connect.
           </h3>
-          <p className="text-lg font-body mb-7 xl:w-[90%]">
+          <p className="text-lg font-body mb-7 text-white xl:w-[90%]">
             Michael Olawunmi is a professional developer whos open for new
             projects and freelancing. Feel free to reach out.
           </p>
@@ -50,7 +50,7 @@ const ContactMe = () => {
         <div className="my-5 lg:px-14 xl:px-0">
           <form name="contact-form" method="POST">
             <input type="hidden" name="form-name" value="contact-form" />
-            <label className="mb-1 block capitalize font-body text-xl">
+            <label className="mb-1 block capitalize font-body text-xl text-white">
               Your name:
             </label>
             <input
@@ -58,7 +58,7 @@ const ContactMe = () => {
               name="fullname"
               className="p-2 block w-full mb-4 bg-white focus:bg-slate-200 focus:outline-none border-solid border-darkGray border-b-2"
             />
-            <label className="mb-1 block capitalize font-body text-xl">
+            <label className="mb-1 block capitalize font-body text-xl text-white">
               Your email address:
             </label>
             <input
@@ -66,7 +66,7 @@ const ContactMe = () => {
               name="email"
               className="p-2 block w-full mb-4 bg-white focus:bg-slate-200 focus:outline-none border-solid border-darkGray border-b-2"
             />
-            <label className="mb-1 block capitalize font-body text-xl">
+            <label className="mb-1 block capitalize font-body text-xl text-white">
               Your message:
             </label>
             <textarea

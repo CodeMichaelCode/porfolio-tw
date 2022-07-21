@@ -30,18 +30,12 @@ const ContactMe = () => {
               </a>
             </li>
             <li className="text-2xl inline-block border-2 border-white rounded-full p-1.5 mr-4 bg-white duration-200 ease hover:bg-transparent hover:text-white">
-              <a
-                href="https://www.linkedin.com/in/molawunmi/"
-                target={"_blank"}
-              >
+              <a href="https://github.com/CodeMichaelCode" target={"_blank"}>
                 <FaGithubAlt />
               </a>
             </li>
             <li className="text-2xl inline-block border-2 border-white rounded-full p-1.5 mr-4 bg-white duration-200 ease hover:bg-transparent hover:text-white">
-              <a
-                href="https://www.linkedin.com/in/molawunmi/"
-                target={"_blank"}
-              >
+              <a href="https://twitter.com/UrBuddyMichael" target={"_blank"}>
                 <FaTwitter />
               </a>
             </li>

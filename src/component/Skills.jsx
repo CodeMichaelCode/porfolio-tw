@@ -30,7 +30,7 @@ const Skills = () => {
           </li>
           <li className="text-center">
             <SiTailwindcss title="Tailwind CSS" className="mx-auto" />
-            <span className="text-lg">TailwindCss</span>
+            <span className="text-lg">Tailwind Css</span>
           </li>
           <li className="text-center">
             <SiSass title="SASS" className="mx-auto" />

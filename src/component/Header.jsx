@@ -9,12 +9,17 @@ const Header = () => {
   };
   return (
     <div ref={top}>
-      <nav className="grid bg-darkBlue lg:grid-cols-2">
+      <nav className="grid bg-darkBlue lg:grid-cols-2 contain">
         <div className="pt-10 pb-5 px-5 md:px-14 xl:bg-lightBlue 2xl:px-[20%]">
-          <h2 className="text-2xl text-white uppercase font-headers">
-            <BsCodeSlash size="2rem" className="inline-block text-darkGray" />{" "}
-            CodeMichaelCode
-          </h2>
+          <a href="https://www.codemichaelcode.com/" className="cursor-pointer">
+            <h2 className="text-2xl text-white uppercase font-headers">
+              <BsCodeSlash
+                size="2rem"
+                className="inline-block text-darkGray mb-1"
+              />{" "}
+              CodeMichaelCode
+            </h2>
+          </a>
         </div>
         <div className="px-5 py-0 md:px-14 lg:py-10 2xl:px-[20%] xl:bg-darkBlue ">
           <ul className="flex  text-white font-body md:gap-6 lg:justify-end">

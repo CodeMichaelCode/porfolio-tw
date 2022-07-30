@@ -5,6 +5,7 @@ import {
   SiTailwindcss,
   SiNodedotjs,
   SiExpress,
+  SiSass,
 } from "react-icons/si";
 
 const Skills = () => {
@@ -15,24 +16,34 @@ const Skills = () => {
           Skills
         </h2>
         <ul className="flex gap-14 justify-center text-white text-6xl flex-wrap">
-          <li>
-            <FaHtml5 title="HTML5" />
+          <li className="text-center">
+            <FaHtml5 title="HTML5" className="mx-auto" />
+            <span className="text-lg">HTML5</span>
           </li>
-          <li>
-            <FaReact title="React" />
+          <li className="text-center">
+            <FaReact title="React" className="mx-auto" />
+            <span className="text-lg">React</span>
           </li>
-          <li>
-            <SiJavascript title="JavaScript" />
+          <li className="text-center">
+            <SiJavascript title="JavaScript" className="mx-auto" />
+            <span className="text-lg">JavaScript</span>
           </li>
-          <li>
-            <SiTailwindcss title="Tailwind CSS" />
+          <li className="text-center">
+            <SiTailwindcss title="Tailwind CSS" className="mx-auto" />
+            <span className="text-lg">TailwindCss</span>
+          </li>
+          <li className="text-center">
+            <SiSass title="SASS" className="mx-auto" />
+            <span className="text-lg">Sass</span>
           </li>
           <span className="flex gap-14">
-            <li>
-              <SiNodedotjs title="Node.js" />
+            <li className="text-center">
+              <SiNodedotjs title="Node.js" className="mx-auto" />
+              <span className="text-lg">Node.js</span>
             </li>
-            <li>
-              <SiExpress title="Express.js" />
+            <li className="text-center">
+              <SiExpress title="Express.js" className="mx-auto" />
+              <span className="text-lg">Express.js</span>
             </li>
           </span>
         </ul>

@@ -21,9 +21,9 @@ const AboutMe = () => {
           // About Me
         </p>
         <p className="text-white text-lg font-light font-body max-w-[650px] 2xl:mb-10">
-          I’m a proud software engineer. By nature, I’m a problem solver, and
-          due to my experience as an EMT, I excel at keeping a level head which
-          has helped me on my journey. A passion of mine is volunteering in tech
+          I’m a Web/Email Developer . By nature, I’m a problem solver, and due
+          to my experience as an EMT, I excel at keeping a level head which has
+          helped me on my journey. A passion of mine is volunteering in tech
           spaces to help create communities for people at all levels.
           Volunteering has allowed me to learn so much from my peers while
           giving back at the same&nbsp;time.
